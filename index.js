@@ -22,6 +22,8 @@ function iLoveTheBeatles(n) {
   var arr = [];
   var i = 0;
   do {
-    
+    i++
+    arr.push("I love the Beatles!")
   } while (i<n);
+return arr;
 }
